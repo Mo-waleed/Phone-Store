@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+    <script src="js/jquery-3.5.0.min.js"></script>
+
+    <title>Phone Store</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normlise.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- start setting box -->
+    <div class="setting-box">
+      <div class="toggle-setting"><i class="fa fa-gear tool-setting"></i></div>
+      <div class="settung-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#ff9800"></li>
+            <li data-color="#e91e63"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#03a9f4"></li>
+            <li data-color="#4caf50"></li>
+          </ul>
+        </div>
+        <div class="option-box-background">
+          <h4>Random Backgrounds</h4>
+          <div class="random-background">
+            <span class="yes active" data-background="yes">Yes</span> <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+        <div class="option-box-background">
+          <h4>Show Bullets</h4>
+          <div class="bullets-option">
+            <span class="yes active" data-display="show">Show</span> <span class="no" data-display="hide">Hide</span>
+          </div>
+        </div>
+        <button type="button" class="reset-option" name="button">Reset-Option</button>
+      </div>
+    </div>
+    <!-- end setting box -->
+
+    <!-- start nav Bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us"><div class="tooltip">About Us</div></div>
+      <div class="bullet" data-section=".skills"><div class="tooltip">Our Services</div></div>
+      <div class="bullet" data-section=".gallery"><div class="tooltip">Our Products</div></div>
+      <div class="bullet" data-section=".timeline"><div class="tooltip">Timeline</div></div>
+      <div class="bullet" data-section=".features"><div class="tooltip">Features</div></div>
+      <div class="bullet" data-section=".testimonials"><div class="tooltip">Testimonials</div></div>
+    </div>
+    <!-- end nav Bullets -->
+
+    <!-- start landing page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo">Phone Store</div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="#About" class="active">About</a></li>
+              <li><a href="#Skills">Services</a></li>
+              <li><a href="#Gallery">Products</a></li>
+              <li><a href="#Timeline">Timeline</a></li>
+              <li><a href="#Features">Features</a></li>
+              <li><a href="#testimonials">testimonials</a></li>
+            </ul>
+            <button type="button" class="toggle-menu" name="button"><span></span> <span></span> <span></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="introduction-area">
+        <h1>We Are <span>Creative</span> Team</h1>
+        <p style=" color: #ddd;">
+          A mobile phones team is a dedicated group of professionals working collaboratively in the dynamic and ever-evolving
+          field of mobile technology. Comprising experts from diverse disciplines such as product development, engineering,
+          marketing, and customer support, this team is committed to innovating and delivering cutting-edge mobile devices and
+          solutions.
+        </p>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+      </div>
+    </div>
+    <!-- End landing page -->
+
+    <!-- start aboutUs -->
+    <div id="About" class="about-us">
+      <div class="container">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <h4
+            style="display: inline-block;
+          color: #6e0aef;
+          font-size: 1.6rem;
+          margin-bottom: 1rem;"
+          >
+            Shop safely. Shop quickly
+          </h4>
+          <p>
+            A mobile phone store typically offers a wide range of smartphones, accessories, and related products. Customers can
+            find the latest models from various brands, along with features such as cameras, processors, and storage options.
+            These stores may also provide services like phone repairs, accessories, and sometimes, network plans. The goal is to
+            cater to customers' mobile communication needs, offering a variety of options to suit different preferences and
+            budgets. Discover the latest phones at the best prices so you can save money and gain peace of mind Your Phone is
+            the largest store for buying everything related to phones. Quality, speed and safety while you shop
+          </p>
+        </div>
+        <div class="img-box">
+          <img
+            style="width: 470px;
+          margin-top: 55px;
+          border-radius: 5px;
+          box-shadow: 0 2px 15px rgb(0 0 0 / 10%);"
+            src="imgs/iPhone 13 Pro(2).avif"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- end aboutUs -->
+
+    <!-- start our skills -->
+    <div id="Skills" class="skills">
+      <div class="container">
+        <div class="skill-names"><h2>Our Services</h2></div>
+        <div class="skillsBox">
+          <div class="imgs">
+            <img
+              style="width: 470px;
+            border-radius: 5px;
+            box-shadow: 0 2px 15px rgb(0 0 0 / 10%);"
+              src="imgs/iPhone 13 Pro(4).avif"
+              alt=""
+            />
+          </div>
+          <div class="contain">
+            <div class="skill-box">
+              <div class="skill-name ">Accessories:</div>
+              <div class="skill-progress"><span data-progress="90%" class="HTML"></span></div>
+            </div>
+            <div class="skill-box">
+              <div class="skill-name ">Maintenance and Repair:</div>
+              <div class="skill-progress"><span data-progress="80%" class="CSS"></span></div>
+            </div>
+            <div class="skill-box">
+              <div class="skill-name ">Updates and Software:</div>
+              <div class="skill-progress"><span data-progress="70%" class="JavaScript"></span></div>
+            </div>
+            <div class="skill-box">
+              <div class="skill-name ">Consultation Services:</div>
+              <div class="skill-progress"><span data-progress="75%" class="jQuery"></span></div>
+            </div>
+            <div class="skill-box">
+              <div class="skill-name ">Data Transfer:</div>
+              <div class="skill-progress"><span data-progress="80%" class="Bootstrap"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end our skills -->
+
+    <!-- start gallery -->
+    <div id="Gallery" class="gallery">
+      <div class="container">
+        <h2>Our Products</h2>
+        <div class="images-box">
+          <img
+          src="imgs/phone Huawei P40 Pro(4).avif"
+          alt="phone Huawei P40 Pro"
+          title="
+         price: 999.00$,
+         quantity: 6,
+         processor: HiSilicon Kirin 990 5G,
+         ram: 8GB,
+         storage: 256GB,
+         display: 6.58-inch OLED, 1200 x 2640 pixels,
+         camera: Quad 50 MP, 40 MP, 12 MP, TOF 3D,
+       operating_system: EMUI (based on Android),
+         "
+        />
+          <img
+            src="imgs/Samsung-Galaxy-A1.jpg"
+            alt="phone Samsung Galaxy S21"
+            title="
+            price: 799.99$,
+            quantity: 5,
+            processor: Exynos 2100 / Qualcomm Snapdragon 888,
+            ram: 8GB,
+            storage: 128GB,
+            display: 6.2-inch Dynamic AMOLED, 1080 x 2400 pixels,
+            camera: Triple 12 MP, 12 MP, 64 MP,
+            operating_system: Android 11 with One UI 3.1,
+            "
+          />
+          
+          <img
+            src="imgs/iPhone 13 Pro(3).avif"
+            alt="iPhone 13 Pro"
+            title="
+          price: 999.00$,
+          quantity: 2,
+          processor: Apple A15 Bionic,
+          ram: 6GB,
+          storage: 256GB,
+          display: 6.1-inch Super Retina XDR, 2532 x 1170 pixels,
+          camera: Triple 12 MP, 12 MP, 12 MP,
+        operating_system: iOS 15,
+          "
+          />
+          <img
+            src="imgs/iPhone 13 Pro(4).avif"
+            alt="iPhone 13 Pro"
+            title="
+           price: 999.00$,
+           quantity: 2,
+           processor: Apple A15 Bionic,
+           ram: 6GB,
+           storage: 256GB,
+           display: 6.1-inch Super Retina XDR, 2532 x 1170 pixels,
+           camera: Triple 12 MP, 12 MP, 12 MP,
+         operating_system: iOS 15,
+           "
+          />
+          <img
+          src="imgs/phone Samsung Galaxy S21(4).avif"
+          alt="phone Samsung Galaxy S21"
+          title="
+         price: 799.99$,
+         quantity: 5,
+         processor: Exynos 2100 / Qualcomm Snapdragon 888,
+         ram: 8GB,
+         storage: 128GB,
+         display: 6.2-inch Dynamic AMOLED, 1080 x 2400 pixels,
+         camera: Triple 12 MP, 12 MP, 64 MP,
+         operating_system: Android 11 with One UI 3.1,
+         "
+        />
+        <img
+          src="imgs/phone Samsung Galaxy S21(5).avif"
+          alt="phone Samsung Galaxy S21"
+          title="
+        price: 799.99$,
+        quantity: 5,
+        processor: Exynos 2100 / Qualcomm Snapdragon 888,
+        ram: 8GB,
+        storage: 128GB,
+        display: 6.2-inch Dynamic AMOLED, 1080 x 2400 pixels,
+        camera: Triple 12 MP, 12 MP, 64 MP,
+        operating_system: Android 11 with One UI 3.1,
+        "
+        />
+          <img
+            src="imgs/phone Samsung Galaxy S21(2).avif"
+            alt="phone Samsung Galaxy S21"
+            title="
+          price: 799.99$,
+          quantity: 5,
+          processor: Exynos 2100 / Qualcomm Snapdragon 888,
+          ram: 8GB,
+          storage: 128GB,
+          display: 6.2-inch Dynamic AMOLED, 1080 x 2400 pixels,
+          camera: Triple 12 MP, 12 MP, 64 MP,
+          operating_system: Android 11 with One UI 3.1,
+          "
+          />
+          <img
+            src="imgs/phone Samsung Galaxy S21(3).avif"
+            alt="phone Samsung Galaxy S21"
+            title="
+          price: 799.99$,
+          quantity: 5,
+          processor: Exynos 2100 / Qualcomm Snapdragon 888,
+          ram: 8GB,
+          storage: 128GB,
+          display: 6.2-inch Dynamic AMOLED, 1080 x 2400 pixels,
+          camera: Triple 12 MP, 12 MP, 64 MP,
+          operating_system: Android 11 with One UI 3.1,
+          "
+          />
+      
+          <img
+            src="imgs/iPhone 13 Pro.avif"
+            alt="iPhone 13 Pro"
+            title="
+          price: 999.00$,
+          quantity: 2,
+          processor: Apple A15 Bionic,
+          ram: 6GB,
+          storage: 256GB,
+          display: 6.1-inch Super Retina XDR, 2532 x 1170 pixels,
+          camera: Triple 12 MP, 12 MP, 12 MP,
+        operating_system: iOS 15,
+          "
+          />
+          <img
+          src="imgs/phone Huawei P40 Pro(5).avif"
+          alt="phone Huawei P40 Pro"
+          title="
+        price: 999.00$,
+        quantity: 6,
+        processor: HiSilicon Kirin 990 5G,
+        ram: 8GB,
+        storage: 256GB,
+        display: 6.58-inch OLED, 1200 x 2640 pixels,
+        camera: Quad 50 MP, 40 MP, 12 MP, TOF 3D,
+      operating_system: EMUI (based on Android),
+        "
+        />
+          <img
+            src="imgs/iPhone 13 Pro(2).avif"
+            alt="iPhone 13 Pro"
+            title="
+          price: 999.00$,
+          quantity: 2,
+          processor: Apple A15 Bionic,
+          ram: 6GB,
+          storage: 256GB,
+          display: 6.1-inch Super Retina XDR, 2532 x 1170 pixels,
+          camera: Triple 12 MP, 12 MP, 12 MP,
+        operating_system: iOS 15,
+          "
+          />
+
+          <img
+            src="imgs/iPhone 13 Pro(5).avif"
+            alt="iPhone 13 Pro"
+            title="
+          price: 999.00$,
+          quantity: 2,
+          processor: Apple A15 Bionic,
+          ram: 6GB,
+          storage: 256GB,
+          display: 6.1-inch Super Retina XDR, 2532 x 1170 pixels,
+          camera: Triple 12 MP, 12 MP, 12 MP,
+        operating_system: iOS 15,
+          "
+          />
+          <img
+            src="imgs/phone Oppo Find X5 Pro.avif"
+            alt="phone Oppo Find X5 Pro"
+            title="
+          price: 1199.99$,
+          quantity: 3,
+          processor: Oppo Octa-core Processor,
+          ram: 8GB,
+          storage: 256GB,
+          display: 6.7-inch AMOLED, 1440 x 3216 pixels,
+          camera: Quad 50 MP, 50 MP, 13 MP, 3 MP,
+        operating_system: ColorOS (based on Android),
+          "
+          />
+          <img
+            src="imgs/phone Oppo Find X5 Pro(2).avif"
+            alt="phone Oppo Find X5 Pro"
+            title="
+          price: 1199.99$,
+          quantity: 3,
+          processor: Oppo Octa-core Processor,
+          ram: 8GB,
+          storage: 256GB,
+          display: 6.7-inch AMOLED, 1440 x 3216 pixels,
+          camera: Quad 50 MP, 50 MP, 13 MP, 3 MP,
+        operating_system: ColorOS (based on Android),
+          "
+          />
+          <img
+            src="imgs/phone Oppo Find X5 Pro(3).avif"
+            alt="phone Oppo Find X5 Pro"
+            title="
+           price: 1199.99$,
+           quantity: 3,
+           processor: Oppo Octa-core Processor,
+           ram: 8GB,
+           storage: 256GB,
+           display: 6.7-inch AMOLED, 1440 x 3216 pixels,
+           camera: Quad 50 MP, 50 MP, 13 MP, 3 MP,
+         operating_system: ColorOS (based on Android),
+           "
+          />
+          <img
+            src="imgs/phone Oppo Find X5 Pro(4).avif"
+            alt="phone Oppo Find X5 Pro"
+            title="
+          price: 1199.99$,
+          quantity: 3,
+          processor: Oppo Octa-core Processor,
+          ram: 8GB,
+          storage: 256GB,
+          display: 6.7-inch AMOLED, 1440 x 3216 pixels,
+          camera: Quad 50 MP, 50 MP, 13 MP, 3 MP,
+        operating_system: ColorOS (based on Android),
+          "
+          />
+          <img
+            src="imgs/phone Oppo Find X5 Pro(5).avif"
+            alt="phone Oppo Find X5 Pro"
+            title="
+          price: 1199.99$,
+          quantity: 3,
+          processor: Oppo Octa-core Processor,
+          ram: 8GB,
+          storage: 256GB,
+          display: 6.7-inch AMOLED, 1440 x 3216 pixels,
+          camera: Quad 50 MP, 50 MP, 13 MP, 3 MP,
+        operating_system: ColorOS (based on Android),
+          "
+          />
+          <img
+            src="imgs/phone Huawei P40 Pro.avif"
+            alt="phone Huawei P40 Pro"
+            title="
+          price: 999.00$,
+          quantity: 6,
+          processor: HiSilicon Kirin 990 5G,
+          ram: 8GB,
+          storage: 256GB,
+          display: 6.58-inch OLED, 1200 x 2640 pixels,
+          camera: Quad 50 MP, 40 MP, 12 MP, TOF 3D,
+        operating_system: EMUI (based on Android),
+          "
+          />
+          <img
+            src="imgs/phone Huawei P40 Pro(2).avif"
+            alt="phone Huawei P40 Pro"
+            title="
+           price: 999.00$,
+           quantity: 6,
+           processor: HiSilicon Kirin 990 5G,
+           ram: 8GB,
+           storage: 256GB,
+           display: 6.58-inch OLED, 1200 x 2640 pixels,
+           camera: Quad 50 MP, 40 MP, 12 MP, TOF 3D,
+         operating_system: EMUI (based on Android),
+           "
+          />
+          <img
+            src="imgs/phone Huawei P40 Pro(3).avif"
+            alt="phone Huawei P40 Pro"
+            title="
+          price: 999.00$,
+          quantity: 6,
+          processor: HiSilicon Kirin 990 5G,
+          ram: 8GB,
+          storage: 256GB,
+          display: 6.58-inch OLED, 1200 x 2640 pixels,
+          camera: Quad 50 MP, 40 MP, 12 MP, TOF 3D,
+        operating_system: EMUI (based on Android),
+          "
+          />
+     
+
+
+          <!-- <img src="imgs/09.jpg" alt="image 9" /> <img src="imgs/11.jpg" alt="image 10" /> -->
+        </div>
+      </div>
+    </div>
+    <!-- end gallery -->
+
+    <!-- start timeline -->
+    <div id="Timeline" class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2023</div>
+
+          <div class="left">
+            <div class="content">
+              <h3>Store Target</h3>
+              <p>
+                A phone store is a retail establishment that specializes in providing a diverse selection of mobile phones,
+                accessories, and related products to consumers. These stores are designed to cater to the varied preferences and
+                needs of customers in the realm of telecommunications. A typical phone store showcases the latest models from
+                various brands, offering choices in terms of features, specifications, and price points. In addition to mobile
+                phones, these stores may also offer accessories such as cases, chargers, headphones, and screen protectors.
+              </p>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="right">
+            <div class="content">
+              <h3>Store Target</h3>
+              <p>
+                Phone stores often aim to create a convenient and engaging shopping experience, providing customers with the
+                opportunity to explore and compare different devices. Some stores may also offer additional services, including
+                phone repairs, trade-in programs, and assistance with setting up mobile plans. The goal of a phone store is to
+                meet the demands of a tech-savvy and mobile-centric consumer base, ensuring they have access to a wide range of
+                options and services under one roof.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end timeline -->
+
+    <!-- start features -->
+    <div id="Features" class="features">
+      <div class="container">
+        <h2>Our Features</h2>
+
+        <div class="feat-box">
+          <img src="imgs/features-01.jpg" alt="" />
+          <h4>Development</h4>
+          <p>We are professionla marktees, We are do any thing in no time</p>
+        </div>
+
+        <div class="feat-box">
+          <img src="imgs/features-02.jpg" alt="" />
+          <h4>Marketing</h4>
+          <p>We are professionla marktees, We are do any thing in no time</p>
+        </div>
+
+        <div class="feat-box">
+          <img src="imgs/features-03.jpg" alt="" />
+          <h4>Hosting</h4>
+          <p>We are professionla marktees, We are do any thing in no time</p>
+        </div>
+
+        <div class="feat-box">
+          <img src="imgs/features-04.jpg" alt="" />
+          <h4>Database</h4>
+          <p>We are professionla marktees, We are do any thing in no time</p>
+        </div>
+
+        <div class="feat-box">
+          <img src="imgs/features-05.png" alt="" />
+          <h4>Cloud and Servers</h4>
+          <p>We are professionla marktees, We are do any thing in no time</p>
+        </div>
+
+        <div class="feat-box">
+          <img src="imgs/features-06.jpg" alt="" />
+          <h4>Seo</h4>
+          <p>We are professionla marktees, We are do any thing in no time</p>
+        </div>
+      </div>
+    </div>
+    <!-- End features -->
+
+    <!-- start testimonials -->
+    <div id="testimonials" class="testimonials">
+      <div class="container">
+        <h2>Testimonals</h2>
+
+        <div class="ts-box">
+          <p>I'm very happy with the product it's amazing and i recieve it very fast and the price was amazing.</p>
+          <div class="person-info">
+            <img src="imgs/avatar-01.png" alt="" />
+            <h4>Ahmed Mosuad</h4>
+            <p>CEO at Company</p>
+          </div>
+        </div>
+
+        <div class="ts-box">
+          <p>I'm very happy with the product it's amazing and i recieve it very fast and the price was amazing.</p>
+          <div class="person-info">
+            <img src="imgs/avatar-02.png" alt="" />
+            <h4>Mohamed Hassan</h4>
+            <p>Frontend at Company</p>
+          </div>
+        </div>
+
+        <div class="ts-box">
+          <p>I'm very happy with the product it's amazing and i recieve it very fast and the price was amazing.</p>
+          <div class="person-info">
+            <img src="imgs/avatar-03.png" alt="" />
+            <h4>Salah Mohamed</h4>
+            <p>ISO at Company</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end testimonials -->
+
+    <!-- start contact us -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form class="" action="index.html" method="post">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="username" value="" />
+            <input type="text" placeholder="Your Phone" name="Phone" value="" />
+            <input type="email" placeholder="Your Email" name="email" value="" />
+            <input type="text" placeholder="Subject" name="subject" value="" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <input class="submit" type="submit" name="" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End contact us -->
+
+    <!-- start footer  -->
+    <div class="footer">Designed by Team</div>
+    <!-- End footer  -->
+  </body>
+</html>
